@@ -6,12 +6,14 @@
     Chapter 1
     Programming Assignment
 
-    Author:
-    Date:
-    Filename:
+    Author: William Renard
+    Date: 3/28/2024
+    Filename: index.html
   -->
     <title>Roleplay Character Generator</title>
     <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Bitter&family=IBM+Plex+Sans&family=Inter&display=swap" rel="stylesheet">
+    <script defer src="script.js"></script>
   </head>
   <body>
     <div id="mainContainer">
@@ -35,7 +37,20 @@
         <button id="generateHero">Generate Hero</button>
       </form>
 
-      <div id="characterOutput"></div>
+      <div class="hidden" id="characterOutput">
+        <div class="characterInfo">
+          <h2>Character Name</h2>
+          <p id="nameLabel">Bob</p>
+        </div>
+        <div class="characterInfo">
+          <h2>Character Gender</h2>
+          <p id="genderLabel">Bob</p>
+        </div>
+        <div class="characterInfo">
+          <h2>Character Class</h2>
+          <p id="classLabel">Bob</p>
+        </div>
+      </div>
     </div>
 
     <script src="script.js"></script>
