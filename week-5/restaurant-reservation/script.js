@@ -25,7 +25,7 @@ function reserveTable(tableNumber, callback, time) {
         callback("Table is already reserved.");
         return; // return so we do not hit the callback twice
       }
-      else {
+      else { // if table is not reserved then go ahead and reserve it
         tables[i].isReserved = true; // set table to reserved and start the timeout for the callback.
         setTimeout(() => {
           callback("Table is now reserved."); // announce that table is now reserved.
