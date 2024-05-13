@@ -3,9 +3,64 @@
   Chapter 4
   Programming Assignment
 
-  Author:
-  Date:
-  Filename:
+  Author: William Renard
+  Date: 5/12/2024
+  Filename: styles.css
 */
 
 /* Add your styles here */
+
+body, header, nav, main, footer, img, h1, h2, h3, ul, table, td, th, p, section, article {
+  padding: 0;
+  border: 0;
+  margin: 0;
+}
+
+body {
+  height: 100vh;
+  background-color: #1F1F1F;
+  color: white;
+  font-family: sans-serif;
+}
+
+.form-container {
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#movie-info {
+  margin-top: 25px;
+  width: 550px;
+}
+
+#movie-info p {
+  margin-top: 3px;
+}
+
+#movie-info h2 {
+  margin-bottom: 10px;
+
+}
+
+input {
+  font-size: 16px;
+  font-size: max(16px, 1em);
+  padding: 0.25em 0.5em;
+  background-color: #fff;
+  border: none;
+  border-radius: 4px;
+
+}
+
+button {
+  font-size: 16px;
+  font-size: max(16px, 1em);
+  border-radius: 4px;
+  padding: 0.25em 0.5em;
+  border: none;
+  margin-top: 25px;
+}
